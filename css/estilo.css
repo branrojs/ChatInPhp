@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Schoolbell');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+.jumbotron {
+    background-color: rgba(8, 42, 96, 0.6);
+    color:#fff;
+}
+
+body {
+    background-color: black;
+    background-image: url("../img/fondo.jpg");
+    background-position: center top;
+    background-size: 100%;
+    padding-top: 10px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Schoolbell', cursive;
+    -webkit-font-smoothing: antialiased;
+    font-size:1.5em;
+}
+
+.panel {
+    background-color: #084860;
+    border:solid 1px #000;
+}
+
+label {
+    padding-left: 5px;
+}
+
+.btn {
+    font-size: 1.1em;
+}
+
+.msg {
+    color: #11110c;
+    background-color: rgba(246, 249, 29, 0.8);
+    font-family: 'Muli', sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    border-color: #11110c;
+}
+
+input {
+    font-family: 'Muli', sans-serif;
+}
+label {
+    font-family: 'Muli', sans-serif;
+}
+.btn {
+    font-family: 'Schoolbell', cursive;
+}
+.Conectado{
+    color:green;
+}
+.Desconectado{
+    color:grey;
+}
